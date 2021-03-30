@@ -1,11 +1,9 @@
 let resumeData = {
-  imagebaseurl: "https://techonoeticsclub.github.io/",
+  imagebaseurl: "https://bhowe111.github.io",
   name: "Brendan Howe",
   role: "Software Engineer",
-  linkedinId: "",
-  skypeid: "Your skypeid",
-  roleDescription:
-    "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+  linkedinId: "https://www.linkedin.com/in/brendan-howe/",
+  roleDescription: "Role description here",
   socialLinks: [
     {
       name: "linkedin",
@@ -55,7 +53,8 @@ let resumeData = {
         "Maintain calm efficiency under sustained, intense pressure. Manage daily finances and employee schedule changes.",
     },
   ],
-  skillsDescription: "Your skills here",
+  skillsDescription:
+    "Some of the languages, frameworks and libraries I work with",
   skills: [
     {
       skillname: "HTML5",
@@ -64,39 +63,76 @@ let resumeData = {
       skillname: "CSS",
     },
     {
-      skillname: "Reactjs",
+      skillname: "Javascript",
+    },
+    {
+      skillname: "React",
+    },
+    {
+      skillname: "Python",
+    },
+    {
+      skillname: "MERNStack",
     },
   ],
   portfolio: [
     {
-      name: "project1",
-      description: "mobileapp",
-      imgurl: "images/portfolio/phone.jpg",
+      name: "Anywhere Else",
+      description:
+        "A Django travel app with Three.js designed to get you anywhere else.",
+      imgurl: "images/AnywhereElse600x650.png",
+      url: "https://anywhere-else-app.herokuapp.com/",
     },
     {
-      name: "project2",
-      description: "mobileapp",
-      imgurl: "images/portfolio/project.jpg",
+      name: "Triptych",
+      description: "A full MERN stack customizable art gallery",
+      imgurl: "images/Triptych600x650.png",
+      url: "https://react-triptych-ii.herokuapp.com/",
     },
     {
-      name: "project3",
-      description: "mobileapp",
-      imgurl: "images/portfolio/project2.png",
-    },
-    {
-      name: "project4",
-      description: "mobileapp",
-      imgurl: "images/portfolio/phone.jpg",
+      name: "WhatsAppAgain",
+      description:
+        "A full MERN stack WhatsApp clone utilizing Pusher for simultaneous front-end updates of back-end info.",
+      imgurl: "images/WhatsAppAgain600x650.png",
+      url:
+        "https://6047c0ec433a710539ca1548--whatsapp-mern-frontend.netlify.app/",
     },
   ],
-  testimonials: [
+  publications: [
     {
-      description: "This is a sample testimonial",
-      name: "Some technical guy",
+      name: "Duo Noire - Night Triptych",
+      description:
+        "Album release interview for Chamber Music Magazine, all pieces by female composers",
+      imgurl: "images/DuoNoireArticle600x650.png",
+      url:
+        "https://images.squarespace-cdn.com/content/v1/55c8a213e4b08793bdd1dc40/1526235968963-UJ1EHBY3Z37Z5PXU3H0V/ke17ZwdGBToddI8pDm48kEYgnIkz7dwsOdoAu8gcW3J7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmGHgEVW2Xh-yUJXyO3Z6YHF0oYaG8J8uu5y1ssKQNlUNPe3Sb49j6qnZmO9hPRrEr/Chamber+Music+America+Duo+Noire+Feature+Article.png?format=750w",
     },
     {
-      description: "This is a sample testimonial",
-      name: "Some technical guy",
+      name: "Third Angle Music",
+      description:
+        "Portland-based music cooperative premiering original composition for Portland's Japanese Garden",
+      imgurl: "images/ThirdAngle600x650.png",
+      url:
+        "https://static1.squarespace.com/static/5b09f06cf8370ad65113b318/t/5b0c64ec0e2e723b7480f23b/1527538930612/CMmagazine_profile.pdf",
+    },
+    {
+      name: "Yuval Sharon's Hopscotch",
+      description: "A contemporary opera taking place in 20 cars",
+      imgurl: "images/YuvalSharon600x650.png",
+      url: "https://van-us.atavist.com/nonlinearity",
+    },
+    {
+      name: "Quantum Computing",
+      description:
+        "An article on the implications of the upcoming quantum computing revolution",
+      imgurl: "images/Quantum600x650.png",
+      url: "https://www.logic2020.com/insight/quantum-computing",
+    },
+    {
+      name: "Customer Experience Management",
+      description: "Insights article for Logic 20/20",
+      imgurl: "images/CustomerMgmt600x650.png",
+      url: "https://www.logic2020.com/insight/customer-experience-management",
     },
   ],
 };

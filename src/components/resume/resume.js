@@ -54,6 +54,16 @@ export default class Resume extends Component {
                   </div>
                 );
               })}
+            <div className="column w-1000-stack">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://docs.google.com/document/d/e/2PACX-1vQW8-BZqQHcBqGfEZSRdvBGjPKByURqKj2CvMGzb_u7NegpiE2wbXpIkRtgeETmWxseDX114jQ1p00M/pub"
+                className="btn btn--download"
+              >
+                VIEW CV
+              </a>
+            </div>
           </div>
         </div>
 
